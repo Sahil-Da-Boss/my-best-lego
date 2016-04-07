@@ -10,6 +10,40 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
    <script src="script.js"></script>
    <title>Legoes are fun!</title>
+   
+   <style>
+   	.jumbotron-section-1 {
+      padding-top: 70px !important;
+    }
+      .jumbotron-section-1-bg {
+        background: url('../img/banner-img/bg10.jpg') no-repeat center center; 
+        height: 768px;
+        background-size:100% 100%;
+        background-attachment: ;
+       }
+      .introduction {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        bottom: auto;
+        right: auto;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -o-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        text-align: center;
+        width: 100%;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+      }
+      .name {
+        font-family: "custom-headerfont",sans-serif;
+      }
+      .introduction p {
+        font-weight: bold;
+      }
+   </style>
+   
 </head>
 <body>
 
@@ -37,5 +71,14 @@
 	I would encourage these products for people from ages 5-15 although many people older than this still <br>
 	enjoy legos.</p>
 </div>
+  <section class="jumbotron-section-1">
+                <div class="jumbotron no-margin jumbotron-section-1-bg">
+                    <div class="container-fluid introduction">
+                        <h1 class="name">Full Name</h1>
+                        <p>Some text here..</p>
+                        <a href="#" class="visible-xs btn call-me">Some text here..</a>
+                    </div>      
+                </div> 
+            </section>
 </body>
 <html>
