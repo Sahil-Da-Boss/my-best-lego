@@ -121,7 +121,6 @@
 body {
 	background-image: url("gray-geometric-high-definition-background.jpg");
 }
-div {
-	margin-left: 10000cm;
+.container {
+	margin-left: 100cm;
 }
-
